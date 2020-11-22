@@ -1,0 +1,339 @@
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.short-logo {
+  width: 80px;
+  height: auto;
+}
+
+.full-logo {
+  width: 300px;
+  height: auto;
+  padding-top: 50px;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: #006680;
+  color: #fff;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+.title-image {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-20%);
+}
+
+h1 {
+  color: #006680;
+  margin-left: auto;
+  margin-right: auto;
+  font-variant: Small-Caps;
+}
+
+h2 {
+  color: #006680;
+  font-variant: small-caps;
+}
+
+.top-page {
+  padding-top: 10px;
+}
+
+.top-container{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dname {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#domain-register {
+  color: #fff;
+  background-color: #006680;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.domain-par-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#domain-button {
+  margin-top: 20px;
+}
+
+.domain-par {
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CAROUSEL WEBSITE-SECTION CSS */
+#carousel-parent-container {
+  background-color: grey;
+}
+
+.carousel-resize {
+}
+
+.carousel-inner {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+#domain-name {
+ padding: 20px 20px auto;
+}
+
+#domain-register {
+  padding: 30px 30px auto;
+}
+
+.hosting-domain-head {
+  color: #fff;
+  font-size: 1.75em;
+  padding-bottom: 30px;
+}
+
+#dname {
+  width: 30%;
+}
+
+.hosting-head {
+  color: white;
+  font-size: 1.75em;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.hosting-domain {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.middle-container {
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.why-us-logo {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.why-us-logo {
+  background-color: #006680;
+  border-radius: 80%;
+}
+
+.mid-p {
+  margin: 30px auto;
+  width: 50%;
+
+}
+
+.bottom-container {
+  background-color: #006680;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* BUSINESS SECTION IN THE WEBSITE-FOR YOUR BUSINESS */
+
+
+
+
+/* ADD THIS ROTATION CODE TO MY WEBSITE CSS ON ATOM */
+
+#rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#rotate:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#web-dev-section {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.bottom-text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* CHANGE ON ATOM SOFTWARE FOR MY WEBSITE */
+.my-web-logo {
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+/* CHANGE ON ATOM SOFTWARE FOR MY WEBSITE */
+#wordpress-logo {
+  font-size: 3em;
+  padding-top: 30px;
+
+
+}
+
+table {
+  padding: 50px auto;
+  line-height: 4em;
+}
+
+.f-y-business {
+  padding-bottom: 30px;
+}
+
+.logo {
+  font-size: 2.5em;
+}
+
+.business-section {
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Startup-companies {
+  padding-top: 25px;
+  margin-top: 0;
+  background-color: #006680;
+  padding-bottom: 50px;
+  color: white;
+  line-height: 1.5em;
+}
+
+.Startup-companies p {
+  font-weight: bold;
+  width: 80%;
+  margin: 5px auto;
+  }
+
+.Cdetails {
+  padding: 30px auto;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: #006680;
+}
+
+.footer-container {
+  font-weight: bold;
+  background-color: grey;
+  color: #d9d9d9;
+  padding: 10px;
+}
+
+.footer-table {
+  margin: 0 auto;
+  line-height: 0.8em;
+  text-align: left;
+  }
+
+.c-t-details {
+  line-height: 2em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.C-phone {
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#a-r-r {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#social-icon {
+  width: 150px;
+  line-height: 2.5em;
+  color: #fff;
+}
+
+#social-icon:hover {
+  color: #006680;
+}
+
+/* THIS IS THE CONTACT-PAGE CSS STYLE */
+.Contact-child-div {
+  background-color: #006680;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-table {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 4px #fff;
+}
+
+td:nth-child(1) {
+  font-weight: bold;
+}
